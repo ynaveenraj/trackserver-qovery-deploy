@@ -4,5 +4,4 @@ FROM node:13-alpine
 # COPY . .
 RUN npm install
 # EXPOSE 3000
-# CMD npm start
-RUN npm start
+CMD npm start
